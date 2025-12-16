@@ -28,9 +28,9 @@ ul.menu {
 .navbar_container {
     max-width: auto;
     margin: 0 auto;
-    padding: 0px 60px;
+    padding: 0px 90px;
 
-    gap: 35px;
+    gap: 45px;
 
     display: flex;
     align-items: center;
@@ -51,8 +51,9 @@ ul.menu {
     cursor: pointer;
 }
 .actions {
-    margin-left: 40px;
-    gap: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 header {
     background-color: black;
@@ -72,6 +73,7 @@ header a {
 body {
     margin: 0;
 }
+/* search section */
 .search{
     display: flex;
     align-items: center;
@@ -80,7 +82,8 @@ body {
     background-color: #f1f1f1;
     padding: 0.5rem 0.75rem;
     border-radius: 999px;
-
+    width: 500px;
+    height: 30px;
 }
 .search-icon {
     width: 18px;
@@ -95,6 +98,62 @@ body {
     font-family: var(--font-header);
     font-size: 1rem;
     width: 150px;
+}
+
+.hero {
+    background-color: #f5f5f5;
+    background-image: url(/assets/images/heroimage.jpg);
+}
+.hero-container{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 4rem 1rem;
+    display: grid;
+    grid-template: 1fr 1fr;
+    align-items: center;
+    gap: 2rem;
+}
+.hero-title{
+    font-family: var(--font-title);
+    font-size: 3rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+.hero-desc{
+    font-family: var(--font-header);
+    color: #555;
+}
+.btn{
+    border: none;
+    padding: 1rem 4rem;
+    border-radius: 999px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+
+    cursor: pointer;
+}
+.hero-stats{
+    display: flex;
+    gap: 3rem;
+    margin-top: 2.5rem;
+    padding: 0;
+    list-style: none;
+}
+.hero-stats strong{
+    display: block;
+    font-size: 1.5rem;
+    font-family: var(--font-title);
+}
+.hero-stats span{
+    font-size: 0.8rem;
+    color: #666;
+    font-family: var(--font-header);
+}
+.hero-image img{
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 
