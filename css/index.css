@@ -1,0 +1,100 @@
+:root {
+    --font-title: 'Lilita One', cursive;
+    --font-header: 'Ubuntu', sans-serif;
+}
+
+.logo a{
+    font-family: var(--font-title);
+    font-size: 3rem;
+    color: black;
+    text-decoration: none;
+}
+
+nav li {
+    list-style: none;
+}
+ul.menu {
+    display: flex;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    background-color: white;
+    width: 100%;
+    gap: 0;
+}
+
+.navbar_container {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 0px 60px;
+
+    gap: 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.navbar .menu li a {
+    color: black;
+    text-decoration: none;
+    padding: auto;
+    font-family: var(--font-header);
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    cursor: pointer;
+}
+.actions {
+    margin-left: 40px;
+    gap: 1.5rem;
+}
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: var(--font-header);
+}
+header p {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 0.8rem;
+}
+header a {
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+.search{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    background-color: #f1f1f1;
+    padding: 0.5rem 0.75rem;
+    border-radius: 999px;
+
+}
+.search-icon {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+    flex-shrink: 0;
+}
+.search-input {
+    border: none;
+    background: none;
+    outline: none;
+    font-family: var(--font-header);
+    font-size: 1rem;
+    width: 150px;
+}
+
+
