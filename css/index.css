@@ -57,7 +57,7 @@ ul.menu {
     align-items: center;
     gap: 1rem;
 }
-header {
+.prom {
     background-color: black;
     text-align: center;
     color: white;
@@ -186,18 +186,91 @@ body {
 /* Arrivals section*/
 .new-arrivals header h2{
     font-family: var(--font-title);
-    text-align: center;
     margin-top: 2rem;
     font-size: 2.5rem;
     background-color: white;
     color: black;
     margin-top: 4rem;
+    width: fit-content;
 }
+
 .arrivals-container{
     display: grid;
-    grid-template-columns: repeat (4, 1fr);
-    max-width: 1240px;
+    grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
+    max-width: 1240px;
     margin: 0 auto;
-    padding: 5rem 6rem;
+    padding: 3rem 1rem;
+}
+.product-card{
+    font-family: var(--font-header);
+}
+.product-image{
+    background-color: #F2F0F1;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-image img{
+    max-width: 100%;
+    height: auto;
+}
+.product-rate{
+    display: flex;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-bottom: 0.25rem;
+}
+.product-title{
+    margin-bottom: 0.3rem;
+}
+.section-action{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.btn--outline{
+    background: transparent;
+    border: 1px solid #ddd;
+    color: black;
+    padding: 0.75rem 3rem;
+    border-radius: 999px;
+    cursor: pointer;
+}
+.header-arrival{
+    display: flex;
+    justify-content: center;
+}
+.product-price {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    margin-top: 0.3rem;
+
+    font-family: var(--font-title);
+}
+.price-current{
+    font-size: 1.5rem;
+}
+.price-old{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    color: gray;
+}
+.price-discount{
+    font-size: 0.7rem;
+    color: #ff3333 ;
+    padding: 0.4rem 0.8rem;
+    background-color: #ffecec;
+    border-radius: 999px;
+}
+.section-divider{
+    border: none;
+    height: 1px;
+    width: 80%;
+    max-width: 1200px;
+
+    background-color: #e5e5e5;
+    margin: 4rem auto;
 }
